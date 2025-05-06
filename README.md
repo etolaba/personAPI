@@ -114,7 +114,6 @@ PersonApi.sln
 Unit and integration tests are not included but could be added using:
 - `xUnit` or `NUnit`
 - `Moq` for mocking
-- `TestServer` for API testing
 
 ---
 
@@ -132,3 +131,8 @@ Unit and integration tests are not included but could be added using:
 - Use a real database (e.g., SQLite, PostgreSQL)
 - Add pagination and filtering to queries
 - Add DELETE and UPDATE (beyond RecordBirth)
+- Add **authentication and authorization** using JWT or OAuth2:
+  - Secure endpoints (e.g., allow only authenticated users to add or update people)
+  - Define user roles (e.g., read-only users vs admin users)
+  - Use ASP.NET Core Identity or integrate with external providers (e.g., Azure AD, Auth0)
+
