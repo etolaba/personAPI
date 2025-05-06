@@ -20,13 +20,14 @@ This project is a technical assignment for a Senior .NET Engineer role. It consi
 
 ## 📁 Project Structure
 
+```
 PersonApi.sln
-├── PersonApi.API // API Layer (Controllers, Program.cs)
-├── PersonApi.Application // Commands, Queries, Validators (CQRS logic)
-├── PersonApi.Domain // Entities, Enums, Interfaces
-└── PersonApi.Infrastructure // Repository implementation (JSON-based)
-
-
+├── PersonApi.API             // API Layer (Controllers, Program.cs)
+├── PersonApi.Application     // Commands, Queries, Validators (CQRS logic)
+├── PersonApi.Domain          // Entities, Enums, Interfaces
+├── PersonApi.Infrastructure  // Repository implementation (JSON-based)
+└── PersonApi.Tests           // Unit tests for handlers, validators and repository
+```
 ---
 
 ## 🚀 How to Run
